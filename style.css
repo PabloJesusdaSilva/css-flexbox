@@ -24,8 +24,8 @@ body {
 
 .parent-box > p {
     position: absolute;
-    margin-top: -32px;
     left: 54px;
+    margin-top: -32px;
     font-size: 18px;
     color: #000;
 }
@@ -81,4 +81,44 @@ body {
 .jtf-content .jtf-evenly .parent-box {
     display: flex;
     justify-content: space-evenly;
+}
+
+
+    /* ---------------------------- FLEX-DIRECTION ----------------------------*/
+
+
+.flex-dct .flex-column .parent-box { 
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-dct .flex-column .parent-box .child-box {
+    width: 100px;
+}
+
+.flex-dct .flex-column-rv .parent-box { 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flex-dct .flex-column-rv .parent-box .child-box {
+    width: 100px;
+}
+
+.flex-dct .flex-row .parent-box { 
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-dct .flex-row .parent-box .child-box {
+    width: 100px;
+}
+
+.flex-dct .flex-row-rv .parent-box { 
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-dct .flex-row-rv .parent-box .child-box {
+    width: 100px;
 }
